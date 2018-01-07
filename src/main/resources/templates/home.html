@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>typerhead</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" 
+	integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"/>
+
+	<style>
+		h1{
+		position: fixed;
+		top: 24%;
+		left: 42%;
+		font:"Garamond";
+		font-family: 'Archivo Black', sans-serif;
+		color:#4285F4;
+		}
+		
+		form{
+			position: fixed;
+			top: 39%;
+			left: 24%;
+			width:800px;
+			display: inline;
+			
+		}
+		input{
+			height:45px;
+		}
+		input[type=text]{
+			border: 1px solid black;
+    			border-radius: 4px;
+		}
+		button{
+			width:100px;
+			height:45px;
+		}
+
+		</style>
+</head>
+<body>
+<div>
+<h1 class="display-3" >foo bar</h1>
+</div>
+
+<div class="row search">
+  <div class="col-sm-8 col-sm-offset-2">
+    <form role="form" method="POST" >
+            <div class="input-group">
+              <input type="text" name="qry" autofocus="autofocus" autocomplete="off" class="typerhead form-control input-sm"/>
+              &nbsp;
+              <div class="input-group-append">
+    				<button class="btn btn-outline-success" type="submit">Enter </button>
+  			</div>
+            </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
