@@ -1,6 +1,8 @@
 # typeahead
 
-Suggestions for search engines.
+Suggestions for search.
+
+Gives suggestions based on the previous searches.
 
 ## Technology Stack:
 
