@@ -4,7 +4,12 @@
 	<title>typerhead</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" 
 	integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"/>
-
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.js"
+  	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  	crossorigin="anonymous"></script>
+  	<script type="text/javascript" src="https://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+  	
 	<style>
 		h1{
 		position: fixed;
@@ -36,6 +41,24 @@
 		}
 
 		</style>
+	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var suggestions;
+				$("input").keyup(function(){
+	    				var query = $(this).val()
+					$.ajax({
+						 method:'GET',
+						 url:'/'+query,
+						 success: function(data){
+						 	suggestions = data
+						 	console.log(suggestions)
+	
+						 }
+					})
+				})
+			});	
+		</script>
 </head>
 <body>
 <div>
