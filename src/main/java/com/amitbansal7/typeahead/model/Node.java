@@ -28,6 +28,9 @@ public class Node {
 		return prefix;
 	}
 	
+	public int getSuggestionsCount() {
+		return suggestions.size();
+	}
 
 	public List<String> getSuggestions(){
 		Collections.sort(suggestions);
