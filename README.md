@@ -22,7 +22,9 @@ GET - /word
 ### Screenshots:
 
 
-![] (https://github.com/amitbansal7/typeahead/screenshots/1.png?raw=true)
 
 
-![] (https://github.com/amitbansal7/typeahead/screenshots/2.png?raw=true)
+![] (https://github.com/amitbansal7/typeahead/blob/master/screenshots/1.png?raw=true)
+
+
+![] (https://github.com/amitbansal7/typeahead/blob/master/screenshots/2.png?raw=true)
