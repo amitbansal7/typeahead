@@ -13,11 +13,11 @@ Suggestions for search engines.
 
 
 #### Insert (inserts word into the data structure)
-POST - /word
+`POST` - `/word`
 
 
 #### Suggest (returns list of suggestions with sorted according to the frequency of the query)
-GET - /word 
+`GET` - `/word`
 
 ### Screenshots:
 
