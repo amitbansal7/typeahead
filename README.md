@@ -24,9 +24,5 @@ Gives suggestions based on the previous searches.
 ### Screenshots:
 
 
-
-
-![](https://github.com/amitbansal7/typeahead/blob/master/screenshots/1.png?raw=true)
-
-
-![](https://github.com/amitbansal7/typeahead/blob/master/screenshots/2.png?raw=true)
+![Screenshot](https://github.com/amitbansal7/typeahead/blob/master/screenshots/1.png)
+![Screenshot](https://github.com/amitbansal7/typeahead/blob/master/screenshots/2.png)
