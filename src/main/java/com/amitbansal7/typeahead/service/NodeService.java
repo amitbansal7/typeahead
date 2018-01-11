@@ -27,10 +27,12 @@ public class NodeService {
 	private final String COLLECTION ="TrieNode";
 	
 	public List<String> suggest(String word){
+		word = word.toLowerCase();
 		return nodeRepository.findByPrefix(word).getSuggestions();
 	}
 	
 	public void insert(String word) {
+		word = word.toLowerCase();
 		for(int i=1;i<=word.length();i++) {
 			String tempPrefix = word.substring(0, i);
 			
